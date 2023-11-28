@@ -2,7 +2,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+* {
+    text-decoration: none;
+}
 .sch-logo{
     height: 80px;
 }
@@ -177,7 +179,7 @@ h2{
 }
 
 .sm-imgs {
-    width: 60px;
+    width: 40px;
     display: inline;
     margin-top: 180px;
     margin-left: 10px;
@@ -252,6 +254,16 @@ h2{
 .courses-box:hover{
 box-shadow: 10px 10px 54px rgba(70, 65, 221, 0.1);
 }
+
+
+.courses-title {
+    text-decoration: none;
+    color: #132043;
+    /* font-family: ; */
+    font-size: 25px;
+    font-weight: 800;
+    /* background-color: #5674c6; */
+}
 .courses-image{
     width: 290px;
     height: 300px;
@@ -279,12 +291,15 @@ box-shadow: 10px 10px 54px rgba(70, 65, 221, 0.1);
 }
 
 .enroll-btn{
-    padding: 15px 20px;
+    padding: 20px 40px;
+/* font-size: 25px; */
     border: 1px solid #132043;
-    color:#132043;
+    color:#fff;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     position:center;
+    background-color: #132043;
 }
 
 .position-enrollbtn{
@@ -1073,11 +1088,96 @@ font-size:80px ;
     font-size: large;
 }
 
+/* .our-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.courses-box {
+    display: flex;
+    padding: 1% 0;
+    line-height: 2;
+    justify-content: center;
+    background-position: center;
+    align-items: flex-start;
+    background-image: url(https://img.freepik.com/free-photo/black-students-posing-with-gadgets_23-2147664364.jpg?w=900&t=st=1701148266~exp=1701148866~hmac=2d63b11d03a2325639e695ae67926fbf7af33fd96292258dc86b95f457aa5a3b);
+    text-align: center;
+    min-width: 47%;
+    height: 50vh;
+    flex-direction: column;
+    box-shadow: 10px 10px 15px #00000036;
+}
 
+.courses-box2 {
+    display: flex;
+    padding: 1% 0;
+    line-height: 2;
+    justify-content: center;
+    background-position: center;
+    align-items: flex-start;
+    background-image: url(https://img.freepik.com/free-photo/black-students-posing-with-gadgets_23-2147664364.jpg?w=900&t=st=1701148266~exp=1701148866~hmac=2d63b11d03a2325639e695ae67926fbf7af33fd96292258dc86b95f457aa5a3b);
+    text-align: center;
+    min-width: 47%;
+    height: 50vh;
+    flex-direction: column;
+    box-shadow: 10px 10px 15px #00000036;
+}
 
+.courses-box-sml {
+    background-image: url(https://img.freepik.com/premium-photo/closeup-african-businesspeople-working-project_181624-39767.jpg?w=900);
+    margin-top: 2%;
+    padding: 3% 0;
+    line-height: 2;
+    min-width: 27%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    justify-content: space-between;
+    height: 200px;
+    padding-left: 20px;
+}
 
+.middle {
+    min-width: 35%;
+    background-image: url();
+    background-position: center;
+    background-image: url(https://img.freepik.com/premium-photo/closeup-african-businesspeople-working-project_181624-39767.jpg?w=900);
+    margin-top: 2%;
+    padding: 3% 0;
+    line-height: 2;
+    min-width: 27%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    justify-content: space-between;
+    height: 200px;
+    padding-left: 20px;
+}
 
+.last {
+    background-image: url();
+    background-image: url(https://img.freepik.com/premium-photo/closeup-african-businesspeople-working-project_181624-39767.jpg?w=900);
+    margin-top: 2%;
+    padding: 3% 0;
+    line-height: 2;
+    min-width: 27%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    justify-content: space-between;
+    height: 200px;
+    padding-left: 20px;
+} */
 
 
 

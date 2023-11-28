@@ -29,6 +29,10 @@ This website gives a wealth of information on the various academic programs, fac
 
 
 # SCREENSHOTS
+
+* home page
+![Alt text](<Screenshot 2023-home.png>)
+
 * About page
 ![Alt text](<Screenshot 2023-About page.png>)
 
